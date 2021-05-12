@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '实验室：通过 PowerShell 连接到 Azure Stack Hub'
     module: '模块 5：管理基础结构'
