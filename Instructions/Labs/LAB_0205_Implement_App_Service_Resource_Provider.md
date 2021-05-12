@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '实验室：在 Azure Stack Hub 中实现应用服务资源提供程序'
     module: '模块 2：提供服务'
