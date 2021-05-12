@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '实验室：配置和管理 Azure Stack Hub 存储帐户'
     module: '模块 5：管理基础结构'
