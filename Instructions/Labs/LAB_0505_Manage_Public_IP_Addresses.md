@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '实验室：在 Azure Stack Hub 中管理公共 IP 地址'
     module: '模块 5：管理基础结构'
