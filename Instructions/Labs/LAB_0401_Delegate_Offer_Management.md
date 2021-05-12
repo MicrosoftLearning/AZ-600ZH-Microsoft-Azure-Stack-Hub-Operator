@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '实验室：在 Azure Stack Hub 中委托套餐管理'
     module: '模块 4：管理标识和访问'
