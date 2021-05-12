@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '实验室：通过使用 Azure Gallery Packager 添加自定义市场项'
     module: '模块 2：提供服务'
