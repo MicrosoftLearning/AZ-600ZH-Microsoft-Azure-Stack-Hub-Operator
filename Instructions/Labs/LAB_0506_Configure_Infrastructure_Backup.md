@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '实验室：配置 Azure Stack Hub 基础结构备份'
     module: '模块 5：管理基础结构'
