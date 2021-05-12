@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '实验室：在 Azure Stack Hub 中访问特权终结点'
     module: '模块 5：管理基础结构'
