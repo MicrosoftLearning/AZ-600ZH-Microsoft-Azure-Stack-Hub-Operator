@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '实验室：使用 Azure 订阅注册 Azure Stack Hub'
     module: '模块 3：实现数据中心集成'
