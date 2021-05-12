@@ -113,7 +113,7 @@ lab:
 
     >**备注**： 忽略有关正在使用的模块的任何警告消息。
 
-1. 从 **“Administrator: C:\Program Files\PowerShell\7\pwsh.exe”窗口运行以下命令，为 Azure Stack Hub 安装 PowerShell Az 模块：
+1. 从 **“Administrator: C:\Program Files\PowerShell\7\pwsh.exe”** 窗口运行以下命令，为 Azure Stack Hub 安装 PowerShell Az 模块：
 
     ```powershell
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12

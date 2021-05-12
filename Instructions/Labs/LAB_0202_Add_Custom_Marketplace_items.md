@@ -4,7 +4,7 @@ lab:
     module: '模块 2：提供服务'
 ---
 
-# 实验室 - 使用 Azure Gallery Packager 添加自定义市场项
+# 实验室 - 通过使用 Azure Gallery Packager 添加自定义市场项
 # 学生实验室手册
 
 ## 实验室依赖项

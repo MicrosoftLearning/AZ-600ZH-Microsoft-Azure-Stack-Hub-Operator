@@ -76,7 +76,7 @@ lab:
 1. 如果需要，请使用以下凭据登录到 **AzS-HOST1**：
 
     - 用户名： **AzureStackAdmin@azurestack.local**
-    - 密码：* *Pa55w.rd1234**
+    - 密码： **Pa55w.rd1234**
 
 1. 在与 **AzS-HOST1** 的远程桌面会话中，打开显示 [Azure Stack Hub 管理员门户](https://adminportal.local.azurestack.external/)的 Web 浏览器窗口，并使用 CloudAdmin@azurestack.local 登录。
 1. 在 Azure Stack Hub 管理员门户的中心菜单中，单击 **“创建资源”**。
@@ -554,7 +554,7 @@ lab:
     - 名称： **app-service-quota1**
     - 应用服务计划： **自定义** **20**
     - 共享应用服务计划： **自定义** **10**
-    - 专用应用服务计划： **自定义** 10**
+    - 专用应用服务计划： **自定义 10**
     - 定价 SKU： **所选** **自定义** **2** （**“免费”** 和 **“共享”**）
     - 消耗计划： **已启用**
 

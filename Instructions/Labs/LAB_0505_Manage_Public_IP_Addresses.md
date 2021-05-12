@@ -175,12 +175,12 @@ lab:
 
 - 注册套餐（以用户的身份）
 
-1. 1. 在与 **AzS-HOST1** 的远程桌面会话中，启动 Web 浏览器的 InPrivate 会话。
+1. 在与 **AzS-HOST1** 的远程桌面会话中，启动 Web 浏览器的 InPrivate 会话。
 1. 在 Web 浏览器窗口中，导航到 [Azure Stack Hub 用户门户](https://portal.local.azurestack.external)，并使用 **t1u1@azurestack.local** 和密码 **Pa55w.rd** 登录。
 1. 在 Azure Stack Hub 用户门户中，单击“仪表板”上的 **“获取订阅”**。
 1. 在 **“获取订阅”** 边栏选项卡的 **“显示名称”** 文本框中，键入 **“T1U1-network-subscription1”**。
-1. 在套餐列表中，选择 **“Network-offer1”**，然后单击 v“创建”**。
-1. 在 **“订阅已创建。 必须刷新门户才能开始使用订阅”** 消息框中，单击 **“刷新”**。
+1. 在套餐列表中，选择 **“Network-offer1”**，然后单击 **“创建”**。
+1. 在 **“订阅已创建。必须刷新门户才能开始使用订阅”** 消息框中，单击 **“刷新”**。
 
 
 #### 任务 2：连接到 Azure Stack Hub Azure 资源管理器用户终结点（以用户的身份）
