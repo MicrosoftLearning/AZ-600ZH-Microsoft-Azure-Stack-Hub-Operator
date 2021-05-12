@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '实验室：使用 Azure Stack Hub 验证 Azure 资源管理器 (ARM) 模板'
     module: '模块 2：提供服务'
