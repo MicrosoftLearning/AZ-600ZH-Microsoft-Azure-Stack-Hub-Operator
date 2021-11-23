@@ -101,6 +101,7 @@ lab:
     Add-AzEnvironment -Name 'AzureStackAdmin' -ArmEndpoint 'https://adminmanagement.local.azurestack.external' `
        -AzureKeyVaultDnsSuffix adminvault.local.azurestack.external `
        -AzureKeyVaultServiceEndpointResourceId https://adminvault.local.azurestack.external
+    ```   
 
 1. 从 **“Administrator: C:\Program Files\PowerShell\7\pwsh.exe”** 窗口运行以下命令，登录到新注册的 **AzureStackAdmin** 环境：
 
@@ -184,7 +185,7 @@ lab:
         Warning: 0
         Recommend: 0
         Total Templates: 1
-    可在 C:\AzureStack-Tools-az\TemplateValidator\sampletemplate1validationreport.html 中获取报表
+    Report available at - C:\AzureStack-Tools-az\TemplateValidator\sampletemplate1validationreport.html
     ```
 
 #### 任务 3：运行失败的模板验证
@@ -193,13 +194,13 @@ lab:
 
 - 针对 Azure 快速启动模板运行模板验证器
 
-1. 在与 **AzS-HOST1** 的远程桌面会话中，从显示 AzureStack 快速启动模板存储库的 Web 浏览器导航到 Azure 快速启动模板存储库 [**Ubuntu VM 上的 MySQL Server 5.6** 页面](https://github.com/Azure/azure-quickstart-templates/tree/master/mysql-standalone-server-ubuntu)
+1. 在与 **AzS-HOST1** 的远程桌面会话中，从显示 AzureStack 快速启动模板存储库的 Web 浏览器导航到 Azure 快速启动模板存储库 [**Ubuntu VM 上的 MySQL Server 5.6** 页面](https://github.com/Azure/azure-quickstart-templates/tree/master/application-workloads/mysql/mysql-standalone-server-ubuntu)
 1. 在 **“Ubuntu VM 上的 MySQL Server 5.6”** 页面，单击 **azuredeploy.json**。
-1. 在 [azure-quickstart-templates/mysql-standalone-server-ubuntu/azuredeploy.json](https://github.com/Azure/azure-quickstart-templates/blob/master/mysql-standalone-server-ubuntu/azuredeploy.json) 页面，查看模板的内容。
+1. 在 [azure-quickstart-templates/mysql-standalone-server-ubuntu/azuredeploy.json](https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/mysql/mysql-standalone-server-ubuntu/azuredeploy.json) 页面，查看模板的内容。
 1. 切换到 **“Administrator: C:\Program Files\PowerShell\7\pwsh.exe”** 窗口，运行以下命令下载 azuredeploy.json 文件，然后在 C:\\Templates 文件夹中将其另存为名为 **sampletemplate2.json** 的文件。
 
     ```powershell
-    Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mysql-standalone-server-ubuntu/azuredeploy.json' -UseBasicParsing -OutFile $path\sampletemplate2.json
+    Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/application-workloads/mysql/mysql-standalone-server-ubuntu/azuredeploy.json' -UseBasicParsing -OutFile $path\sampletemplate2.json
     ```
 
 1. 在与 **AzS-HOST1** 的远程桌面会话中，打开 Web 浏览器，导航到[虚拟机](https://docs.microsoft.com/zh-cn/rest/api/compute/virtualmachines)的 REST API 参考，并标识最新版 Azure API（创作此内容时为 **2020-12-01**）。 
