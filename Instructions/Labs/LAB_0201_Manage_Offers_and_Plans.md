@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '实验室：在 Azure Stack Hub 中管理套餐和计划'
     module: '模块 2：提供服务'
@@ -350,7 +350,7 @@ lab:
 - 检查附加产品计划的可用性（以第二个用户的身份）
 
 1. 在与 **AzS-HOST1** 的远程桌面会话中，启动 Web 浏览器的 InPrivate 会话。
-1. 在 Web 浏览器窗口中，导航到 [Azure Stack Hub 用户门户](https://portal.local.azurestack.external)，并使用 **t1u1@azurestack.local** 和密码 **Pa55w.rd** 登录。
+1. 在 Web 浏览器窗口中，导航到 [Azure Stack Hub 用户门户](https://portal.local.azurestack.external)，并使用密码 **Pa55w.rd** 以 **t1u2@azurestack.local** 身份登录。
 1. 在 Azure Stack Hub 用户门户的中心菜单中，单击 **“所有服务”**。
 1. 在服务列表中，单击 **“订阅”**。
 1. 在 **“订阅”** 边栏选项卡上，单击 **“t1u2-base-subscription1”**。
